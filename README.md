@@ -71,12 +71,12 @@ mvn test -Dcucumber.filter.tags="@ui"
 ## İçerik Bilgisi
 
 ### Pozitif Testler
-API Testleri: Geçerli kimlik bilgileriyle başarılı giriş, toplama, çıkarma, çarpma ve bölme işlemleri gibi çeşitli senaryoları içerir.
-Web UI Testleri: Geçerli tutarla para transferi, hesap adı düzenleme ve geçerli kart bilgileriyle para ekleme gibi senaryoları içerir.
+#### API Testleri: Geçerli kimlik bilgileriyle başarılı giriş, toplama, çıkarma, çarpma ve bölme işlemleri gibi çeşitli senaryoları içerir.
+#### Web UI Testleri: Geçerli tutarla para transferi, hesap adı düzenleme ve geçerli kart bilgileriyle para ekleme gibi senaryoları içerir.
 
 ### Negatif Testler
-API Testleri: Geçersiz veri tipi kontrolü, boş değer kontrolü gibi senaryoları içerir.
-Web UI Testleri: Geçersiz bilgilerle giriş, hesap adı düzenleme ve alanların boş bırakılması gibi senaryoları içerir.
+#### API Testleri: Geçersiz veri tipi kontrolü, boş değer kontrolü gibi senaryoları içerir.
+#### Web UI Testleri: Geçersiz bilgilerle giriş, hesap adı düzenleme ve alanların boş bırakılması gibi senaryoları içerir.
 
 ### Katkıda Bulunma
 Katkıda bulunmak isterseniz, lütfen bir pull request oluşturun veya bir issue açın. Her türlü katkı ve geri bildirim memnuniyetle karşılanır.
