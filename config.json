@@ -1,0 +1,31 @@
+{
+  "browser": "chrome",
+  "url": "https://catchylabs-webclient.testinium.com/",
+  "valid_credentials": {
+    "username": "username",
+    "password": "password."
+  },
+  "invalid_credentials": [
+    {
+      "username": "wrongUser",
+      "password": "WrongPass123"
+    }
+  ],
+  "baseUri": "https://catchylabs-api.testinium.com/api/v1/",
+  "path": [
+    {
+      "Calculator-Multiply": "calculators/multiplies",
+      "Calculator-Subtract": "calculators/subtracts",
+      "Calculator-Divide": "calculators/divides",
+      "Calculator-Add": "calculators/adds"
+    }
+  ],
+  "mobile": {
+    "value": "none",
+    "options": ["none", "iphone16", "samsungS24"]
+  },
+  "headless": {
+    "value": "false",
+    "options": ["true", "false"]
+  }
+}
